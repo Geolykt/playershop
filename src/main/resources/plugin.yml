@@ -1,0 +1,9 @@
+name: PlayerShop
+main: de.geolykt.playershop.PlayerShop
+api-version: 1.18
+version: ${project.version}
+depend: [PlayerCurrency]
+commands:
+  shop:
+    description: Opens the shop
+    usage: /shop
